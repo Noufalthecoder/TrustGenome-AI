@@ -48,3 +48,8 @@ TrustGenome AI redefines Web3 security by creating a preventive trust infrastruc
 📜 License
 
 MIT License
+ ## How to Run Locally
+
+```bash
+pip install fastapi uvicorn scikit-learn numpy
+uvicorn api.app:app --reload
